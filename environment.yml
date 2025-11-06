@@ -1,13 +1,23 @@
-name: nba
+name: solution_ps2_ex3_database
 channels:
+  - conda-forge
   - defaults
 dependencies:
-  - polars
+  - python=3.11
   - pandas
-  - duckdb
-  - kaggle
-  - sqlite
+  - numpy
+  - matplotlib
   - seaborn
-  - pre-commit
-  - ipykernel
+  - polars
+  - duckdb
   - click
+  - ipykernel
+  - jupyter
+  - pre-commit
+  - black
+  - isort
+  - ruff
+  - sqlite
+  - pip
+  - pip:
+      - kaggle
